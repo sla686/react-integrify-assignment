@@ -4,6 +4,8 @@
 
 ## Homepage
 
+[https://todolist-sla686.netlify.app/](https://todolist-sla686.netlify.app/)
+
 ## Author
 
 - Created by [Viacheslav Semushin](https://github.com/sla686)
