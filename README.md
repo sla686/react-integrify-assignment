@@ -9,7 +9,7 @@
 ## Author
 
 - Created by [Viacheslav Semushin](https://github.com/sla686)
-- The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
 ## Available Scripts
 
