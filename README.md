@@ -2,14 +2,17 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
+A simple app for creating and editing your tasks! Just press the button to create a task, or press on the existing task to edit it!
+
 ## Homepage
 
 [https://todolist-sla686.netlify.app/](https://todolist-sla686.netlify.app/)
 
-## Author
+## Author & Tools
 
 - Created by [Viacheslav Semushin](https://github.com/sla686)
 - The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+- This project was created with [Material UI](https://mui.com/) tools
 
 ## Available Scripts
 
