@@ -2,6 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
+![Screenshot of the app](./Images/screen.png)
+
 A simple app for creating and editing your tasks! Just press the button to create a task, or press on the existing task to edit it!
 
 ## Homepage
