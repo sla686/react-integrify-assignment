@@ -103,9 +103,9 @@ body {
 
 .btn:hover,
 .item:hover {
-  -webkit-transform: scale(1.02);
-  -ms-transform: scale(1.02);
-  transform: scale(1.02);
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
   -webkit-transition: -webkit-transform 0.35s;
   transition: -webkit-transform 0.35s;
   -o-transition: transform 0.35s;
