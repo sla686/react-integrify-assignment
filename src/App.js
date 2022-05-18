@@ -76,6 +76,11 @@ const App = () => {
     setShowModal(false);
   };
 
+  //// Delete item
+  const deleteItem = (id) => {
+    setItems(items.filter((item) => item.id !== id));
+  };
+
   return (
     <div className="container">
       <Button
@@ -83,7 +88,11 @@ const App = () => {
         text="Add a new todo"
         onClick={() => setShowModal(true)}
       />
-      <Items items={items} editItem={editItem} />
+      {items.length > 0 ? (
+        <Items items={items} editItem={editItem} onDelete={deleteItem} />
+      ) : (
+        <p style={{ marginLeft: '10px' }}>No items to show!</p>
+      )}
       <Information />
       {showModal && (
         <Modal

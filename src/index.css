@@ -103,9 +103,9 @@ body {
 
 .btn:hover,
 .item:hover {
-  -webkit-transform: scale(1.025);
-  -ms-transform: scale(1.025);
-  transform: scale(1.025);
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02);
   -webkit-transition: -webkit-transform 0.35s;
   transition: -webkit-transform 0.35s;
   -o-transition: transform 0.35s;
@@ -133,7 +133,10 @@ body {
 }
 
 .item h3 {
-  font-size: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.1em;
 }
 
 .green {
@@ -196,6 +199,16 @@ body {
   margin: 15px;
   display: block;
   text-align: center;
+}
+
+.circle {
+  color: red;
+  cursor: pointer;
+  -webkit-transform: translate(-75%, -250%);
+  -ms-transform: translate(-75%, -250%);
+  transform: translate(-75%, -250%);
+  position: absolute;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 768px) {
